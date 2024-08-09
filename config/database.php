@@ -137,11 +137,6 @@ return [
             'database' => env('REDIS_DB', '0'),
         ],
 
-        Replace REDIS_HOST with AZURE_REDIS_HOST.
-        Replace REDIS_PASSWORD with AZURE_REDIS_PASSWORD.
-        Replace REDIS_PORT with AZURE_REDIS_PORT.
-        Replace REDIS_CACHE_DB with AZURE_REDIS_DATABASE.
-
         'cache' => [
             'scheme' => 'tls',
             'url' => env('REDIS_URL'),
